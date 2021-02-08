@@ -1,0 +1,89 @@
+h1 {
+  font-family: 'Saira Stencil One', cursive;
+  text-align: center;
+  margin-top: 5%;
+  color: currentColor;
+  font-size: 250%;
+  text-shadow: 2px 2px #FFFF00;
+  font-weight: 500;
+  font-weight: bold;
+
+
+
+
+}
+
+body {
+  background-image: url('Keramische-tegels.jpg');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+
+.son {
+  margin-top: 3%;
+  margin-left: 40%;
+  padding: 0% 0% 0% 0%;
+  width: 20%;
+  text-align: center;
+  border-color: black;
+  border-radius: 20px;
+  background-color: white;
+
+
+}
+
+#result {
+  font-family: 'Saira Stencil One', cursive;
+  text-align: center;
+  color: blue;
+  border: none;
+  font-size: 50px;
+}
+
+b {
+  font-size: 150%;
+  font-family: sans-serif;
+  text-align: center;
+  margin-left: 6%;
+
+}
+
+#boton {
+  text-align: center;
+  margin-top: 12%;
+  width: 25%;
+  padding: 6px 4px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: darkolivegreen;
+  border-color: darkgoldenrod;
+}
+
+#hoogteInvoer {
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: right;
+  background-color: transparent;
+  border: solid;
+  width: 25%;
+  padding: 6px 4px;
+  border-radius: 5px;
+
+}
+
+#breedteInvoer {
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 6px 4px;
+  text-align: right;
+  background-color: transparent;
+  border: solid;
+  width: 25%;
+  border-radius: 5px;
+  margin-top: 4%;
+
+
+}

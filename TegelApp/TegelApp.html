@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+    <title>Tegel Berekener app</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>   
+    <div class="container">
+
+
+        <h1>Tegel Berekening en Quantificatie App.</h1>
+
+        <div class="son">
+
+           <br><b>📐Hoogte (mts.)📐</b><br><br>
+            
+            <input type="number" min="1" max="1000" id="hoogteInvoer"><br><br>
+
+            <b>📐Breedte (mts.)📐 </b><br><br>
+            
+            <input type="number" min="1" max="1000" id="breedteInvoer"><br>
+
+            <input type="button" value="Berekening" onclick="resultado()" id="boton"><br>
+            
+            <p id="result"></p>
+
+            
+
+        
+
+
+        <script>
+            let hoogteInvoer = document.getElementById("hoogteInvoer");
+
+            let breedteInvoer = document.getElementById("breedteInvoer");
+
+            let result = document.getElementById("result");
+
+            function resultado() {
+
+                let resultaat = hoogteInvoer.value * breedteInvoer.value;
+
+                let porcentage = resultaat * 15;
+                let eindPorcentage = porcentage / 100;
+
+
+                result.innerHTML = resultaat + eindPorcentage +" m²";
+
+
+
+
+            }
+
+        </script>
+        </div>
+        
+    </div>
+</body>
+
+</html>
